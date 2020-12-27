@@ -19,6 +19,7 @@ class AppWidget extends StatelessWidget {
       ],
       child: MaterialApp(
         title: 'Notes',
+        home: SplashPage(),
         debugShowCheckedModeBanner: false,
         builder: ExtendedNavigator.builder(router: app_router.Router()),
         theme: ThemeData.light().copyWith(
